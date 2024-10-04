@@ -1,0 +1,15 @@
+[package]
+name = "Analisador"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.7", features = ["ws"] }
+axum-server = "0.7.1"
+chrono = "0.4.38"
+num-traits = "0.2.19"
+plotly = "0.10.0"
+rusqlite = "0.32.1"
+serde = "1.0.210" 
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
