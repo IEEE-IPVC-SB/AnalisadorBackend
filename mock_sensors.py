@@ -6,7 +6,7 @@ import time
 import random
 from datetime import datetime
 
-url = "http://0.0.1.0:3000/water"
+url = "http://0.0.0.0:3000/water"
 
 while True:
     ph = 7.0 + random.uniform(-0.6, 0.6)
