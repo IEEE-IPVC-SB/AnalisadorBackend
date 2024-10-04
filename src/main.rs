@@ -89,7 +89,7 @@ async fn get_timed_tds_plot(
 
 #[tokio::main]
 async fn main() {
-    let a_ctx = Arc::new(DatabaseCtx::new("db/readings.db"));
+    let a_ctx = Arc::new(DatabaseCtx::new("db/readings.sql"));
 
     let app = Router::new()
         .route("/water", post(post_packets))
